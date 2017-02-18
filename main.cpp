@@ -1,10 +1,18 @@
 #include <iostream>
+#include <string>
+#include <fstream>
+#include <functional>
+#include <vector>
+#include <limits>
+#include "hash_indexing.h"
 
 using namespace std;
 
 int main()
 {
-  //allez lets go
-  
-  return 0;
-  }
+    hash_indexing user;
+
+    user.welcome();
+
+    return 0;
+}
